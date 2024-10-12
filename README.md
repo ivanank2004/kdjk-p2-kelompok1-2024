@@ -21,27 +21,27 @@ docker run -d -p 8080:8080 -v ./trainingData:/usr/share/tessdata -v ./extraConfi
 
 ## Cara Menggunakan
 Berikut adalah tampilan utama dari websitenya
-![Alt text](Image/1.png))
+![Alt text](Image/1.png)
 
 Kita akan coba 2 fitur yaitu PDF to Image dan Image to PDF
-![Alt text](Image/2.png))
+![Alt text](Image/2.png)
 
 Untuk PDF To Image, pilih file PDF yang akan di convert menjadi Image
-![Alt text](Image/3.png))
+![Alt text](Image/3.png)
 
 Selanjutnya website akan memproses PDF dan gambar akan disimpan didalam zip
-![Alt text](Image/4.png))
+![Alt text](Image/4.png)
 
 Berikut hasilnya
-![Alt text](Image/5.png))
+![Alt text](Image/5.png)
 
 Selanjutnya kita coba fitur Image to PDF, pilih Image yang akan di convert menjadi file PDF
-![Alt text](Image/6.png))
+![Alt text](Image/6.png)
 
 Selanjutnya website akan memproses gambar dan outputnya adalah downloadable PDF
-![Alt text](Image/7.png))
+![Alt text](Image/7.png)
 
 Berikut hasilnya
-![Alt text](Image/8.png))
+![Alt text](Image/8.png)
 
 ## Pembahasan
