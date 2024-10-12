@@ -21,6 +21,7 @@ docker run -d -p 8080:8080 -v ./trainingData:/usr/share/tessdata -v ./extraConfi
 
 ## Cara Menggunakan
 Berikut adalah tampilan utama dari websitenya
+![Alt text]([URL_to_your_image](https://github.com/ivanank2004/kdjk-p2-kelompok1-2024/blob/main/Image/1.png))
 
 Kita akan coba 2 fitur yaitu PDF to Image dan Image to PDF
 
