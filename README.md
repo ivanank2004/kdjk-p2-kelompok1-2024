@@ -16,12 +16,12 @@ sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubun
 sudo apt install docker-ce
 ```
 
-4. Pull repository Stirling-PDF
+3. Pull repository Stirling-PDF
 ```
 docker pull frooodle/s-pdf
 ```
 
-6. Buat container
+4. Buat container
 ```
 docker run -d -p 8080:8080 -v ./trainingData:/usr/share/tessdata -v ./extraConfigs:/configs -v ./logs:/logs -e DOCKER_ENABLE_SECURITY=false -e INSTALL_BOOK_AND_ADVANCED_HTML_OPS=false -e LANGS=en_GB --name stirling-pdf frooodle/s-pdf:latest
 ```
